@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+@media (max-width:768px) {
+    .total h4{
+        font-size: 16px;
+    }
+    .total h5{
+        font-size: 14px;
+    }
+    .total h2{
+        font-size: 16px;
+    }
+}
+@media (max-width:576px) {
+    .total h4{
+        font-size: 16px;
+    }
+    .total h5{
+        font-size: 14px;
+    }
+    .total h2{
+        font-size: 16px;
+    }
+   .container{
+        max-width: 440px;
+    }
+}
